@@ -46,7 +46,7 @@
         content: '';
         font-family: 'Open Sans', sans-serif;
         font-size: 10px;
-        letter-spacing: 2px;
+        letter-spacing: 1.5px;
         position: absolute;
         bottom: 0;
         display: block;
@@ -55,7 +55,7 @@
         opacity: 0;
         -webkit-transition: all 0.5s ease-out;
         transition: all 0.5s ease-out;
-        right: 5px;
+        
       }
 
       &:first-child {
@@ -180,7 +180,7 @@ nav {
         content: '';
         font-family: 'Open Sans', sans-serif;
         font-size: 10px;
-        letter-spacing: 2px;
+        letter-spacing: 1.5px;
         position: absolute;
         bottom: 0;
         display: block;
