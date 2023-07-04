@@ -37,14 +37,11 @@ const About = () => {
                         />
                     </h1>
 
-                    <p>    I'm a very ambitious front-end developer looking for a role in an
-                        established IT company with the opportunity to work with the latest
-                        technologies on challenging and diverse projects.</p>
-                    <p> I'm quiet confident, naturally curious, and perpetually working on
-                        improving my chops one design problem at a time.</p>
-                    <p>       If I need to define myself in one sentence that would be a family
-                        person, father of a beautiful daughter, a sports fanatic,
-                        photography enthusiast, and tech-obsessed!!!</p>
+                    <p style={{ lineHeight: "1.5" }}> J'ai développé une passion particulière pour le développement web et la résolution de problèmes complexes. Ma curiosité insatiable m'aide à rester à la pointe des dernières tendances technologiques et à repousser constamment les limites de mes compétences.
+
+                    </p>
+                    <p style={{ lineHeight: "1.5" }}> Sur ce site, vous découvrirez mes projets récents, les technologies que j'utilise et ma vision de l'avenir de l'informatique. J'espère que vous apprécierez la visite et n'hésitez pas à me contacter si vous avez des questions ou si vous souhaitez collaborer sur un projet passionnant!</p>
+
 
                 </div>
                 <div className="tagsphere">
