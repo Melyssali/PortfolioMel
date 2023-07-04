@@ -1,0 +1,136 @@
+.homepage {
+    cursor: default;
+      .text-zone {
+        z-index: 1;
+        position: absolute;
+        left: 3%;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 100%;
+        max-height: 90%;
+      }
+    
+      h1 {
+        color: #1c3850;
+        font-size: 60px;
+        line-height: 60px;
+        margin: 0;
+        font-family: 'Coolvetica';
+        font-weight: 100;
+    
+        img {
+          display: inline-block;
+          margin-left: 20px;
+          opacity: 0;
+          width: 40px;
+          height: auto;
+          animation: rotateIn 1s linear both;
+          animation-delay: 1.4s;
+        }
+      }
+    
+      h2 {
+        color: #8d8d8d;
+        margin-top: 20px;
+        font-weight: 400;
+        font-size: 11px;
+        font-family: sans-serif;
+        letter-spacing: 3px;
+        animation: fadeIn 1s 1.8s backwards;
+      }
+    
+      .contact-button {
+        color: #56a1bb;
+        font-size: 13px;
+        font-weight: 400;
+        letter-spacing: 4px;
+        font-family: sans-serif;
+        text-decoration: none;
+        padding: 10px 18px;
+        border: 1px solid #76dafb;
+        margin-top: 25px;
+        float: left;
+        white-space: nowrap;
+        transition: transform 0.2s;
+        transition-timing-function: linear;
+    
+        &:hover {
+          background: #56a1bb;
+          color: #FFFFFF;
+          transform: scale(1.1);
+        }
+  
+      }
+  
+  }
+    
+
+@media (min-width: 640px) {
+  .homepage {
+    cursor: default;
+      .text-zone {
+        z-index: 1;
+        position: absolute;
+        left: 10%;
+        top: 49%;
+        transform: translateY(-50%);
+        width: 40%;
+        max-height: 90%;
+      }
+    
+      h1 {
+        color: #1c3850;
+        font-size: 62px;
+        line-height: 60px;
+        margin: 0;
+        font-family: 'Coolvetica';
+        font-weight: 100;
+    
+        img {
+          display: inline-block;
+          margin-left: 20px;
+          opacity: 0;
+          width: 40px;
+          height: auto;
+          animation: rotateIn 1s linear both;
+          animation-delay: 1.4s;
+        }
+      }
+    
+      h2 {
+        color: #8d8d8d;
+        margin-top: 20px;
+        font-weight: 400;
+        font-size: 11px;
+        font-family: sans-serif;
+        letter-spacing: 3px;
+        animation: fadeIn 1s 1.8s backwards;
+      }
+    
+      .contact-button {
+        color: #56a1bb;
+        font-size: 13px;
+        font-weight: 400;
+        letter-spacing: 4px;
+        font-family: sans-serif;
+        text-decoration: none;
+        padding: 10px 18px;
+        border: 1px solid #76dafb;
+        margin-top: 25px;
+        float: left;
+        white-space: nowrap;
+        transition: transform 0.2s;
+        transition-timing-function: linear;
+    
+        &:hover {
+          background: #56a1bb;
+          color: #FFFFFF;
+          transform: scale(1.1);
+        }
+  
+      }
+  
+  }
+    
+    
+}

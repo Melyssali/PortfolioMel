@@ -1,0 +1,130 @@
+.logo-container {
+  display: none;
+}
+//   z-index: 0;
+//   width: 600px;
+//   height: 609px;
+//   opacity: 1;
+//   position: absolute;
+//   top: 0;
+//   right: 10%;
+//   bottom: 0;
+//   left: auto;
+//   margin: auto;
+
+//   .svgstyle {
+//       position: absolute;
+//       width: 50%;
+//       height: 80%; 
+//       top: 8.6%;
+//       right: 6.9%;
+      
+//     }
+//       .solid-logo {
+//       position: absolute;
+//       top: auto;
+//       right: auto;
+//       bottom: auto;
+//       left: 10;
+//       margin: auto;
+//       width: 50%;
+//       opacity: 0;
+//       z-index: 1;
+//       animation: fadeIn 2s forwards;
+//       }
+//   }
+// .logopacity {
+// opacity: 0;
+// }
+
+// .svgopacity {
+// position: absolute;
+//       width: 90%;
+//       height: 80%; 
+//       top: 8.6%;
+//       right: 6.9%;
+// animation: fadeOut 1s forwards;
+
+// }
+@media (min-width: 640px) { 
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  @keyframes fadeOut {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+  
+  .logo-container {
+    display: inline-block;
+      z-index: 0;
+      width: 600px;
+      height: 609px;
+      opacity: 1;
+      position: absolute;
+      top: 0;
+      right: 10%;
+      bottom: 10%;
+      left: auto;
+      margin: auto;
+  
+      .svgstyle {
+          position: absolute;
+          width: 90%;
+          height: 80%; 
+          top: 8.6%;
+          right: 6.9%;
+          
+        }
+          .solid-logo {
+          position: absolute;
+          top: auto;
+          right: auto;
+          bottom: auto;
+          left: 0;
+          margin: auto;
+          width: 100%;
+          opacity: 0;
+          z-index: 1;
+          animation: fadeIn 2s forwards;
+          }
+      }
+  .logopacity {
+    opacity: 0;
+  }
+  .svgopacity {
+    position: absolute;
+          width: 90%;
+          height: 80%; 
+          top: 8.6%;
+          right: 6.9%;
+    animation: fadeOut 1s forwards;
+    
+  }
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  // .svg-container {
+  //   stroke: #080807;
+  //   stroke-width: 10;
+  // }
+  // .path {
+  //   stroke-dasharray: 5;
+  //   stroke-dashoffset: 5;
+  //   animation: dash 5s linear alternate forwards;
+  // }
+  
+  // @keyframes dash {
+  //   from {
+  //     stroke-dashoffset: 1;
+  //   }
+  //   to {
+  //     stroke-dashoffset: 0;
+  //   }
+  // }
+
+  
+}
+
