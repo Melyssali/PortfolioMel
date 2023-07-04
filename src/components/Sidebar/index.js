@@ -69,7 +69,7 @@ const Sidebar = () => {
                     </li>
                     <li>
                         <a
-                            href="https://google.com"
+                            href="https://github.com/Melyssali"
                             target="_blank"
                             rel="noreferrer"
                         >
